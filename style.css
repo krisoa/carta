@@ -1,8 +1,12 @@
 body {
 font-family: "special elite";
 color: rgb(53, 43, 2); 
-
+text-align: justify;
 }
+
+
+
+h2, h3 {color:rgb(94, 77, 5);}
 
 .letter{
     width: 700px;
@@ -16,7 +20,29 @@ color: rgb(53, 43, 2);
 a {
     text-decoration: none;
     color:rgb(214, 113, 18); 
+    vertical-align: super;
 }
+
+.Bangers{font-family: Bangers;
+font-size:rem; 
+}
+dt {font-weight: 900;}
+
+dl { line-height: 150% ;
+    word-spacing: 10px;
+
+}
+
+/* #comillas {
+   quotes: "'" "'";
+} */
+
 footer{
     margin-top: 50px;
+    writing-mode: vertical-rl;
+    text-align: left;
+    border:1px solid;
+    height:300px;
+    word-wrap: break-word;
+    line-height:150%;
 }
